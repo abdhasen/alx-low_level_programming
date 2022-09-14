@@ -1,5 +1,3 @@
-#ifndef HOLBERTON_H                                                                                                             
-#define HOLBERTON_H
 /*
  * File: main.h
  * Auth: Abdulhakim H.
@@ -21,4 +19,3 @@ int add(int one, int two);
 void print_to_98(int n);
 void print_times_table(int n);
 
-#endif /* HOLBERTON_H */

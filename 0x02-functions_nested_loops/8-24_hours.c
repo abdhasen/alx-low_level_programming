@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * jack_bauer - displays minutes in 24 hrs.
  *
  * Return: Always 0.
  */

@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * main - check the code
+ * _abs - computes absolute value of anumber.
  *
  * Return: Always 0.
+ * @a: number tobe checked.
  */
-int _abs(int ab)
+int _abs(int a)
 {
-  return (ab * ((ab > 0) - (ab < 0)));
+  return (a * ((a > 0) - (a < 0)));
 }

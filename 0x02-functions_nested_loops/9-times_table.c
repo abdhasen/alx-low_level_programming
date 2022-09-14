@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * times_table - display number 9 times.
  *
  * Return: Always 0.
  */
 void times_table(void)
 {
-  int rone, cone, d;
+  int row, col, d;
 
-  for (rone = 0; rone <= 9; rone++)
+  for (row = 0; row<= 9; row++)
     {
       _putchar('0');
       _putchar(',');
       _putchar(' ');
-      for (cone = 1; cone <= 9; cone++)
+      for (col = 1; col <= 9; col++)
 	{
-	  d = (rone * cone);
+	  d = (row * col);
 	  if ((d / 10) > 0)
 	    {
 	      _putchar((d / 10) + '0');
@@ -27,7 +27,7 @@ void times_table(void)
 	    }
 	  _putchar((d % 10) + '0');
 
-	  if (cone < 9)
+	  if (col < 9)
 	    {
 	      _putchar(',');
 	      _putchar(' ');

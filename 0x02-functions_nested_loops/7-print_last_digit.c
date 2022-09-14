@@ -1,21 +1,23 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_last_digit - a function that prints last digit of a number.
  *
  * Return: Always 0.
+ *@n: number to be checked.
+ *@m: modulus of a number.
  */
-int print_last_digit(int nld)
+int print_last_digit(int n)
 {
-  int pld;
+  int m;
 
-  pld = (nld % 10);
+  m = (n % 10);
 
-  if (pld < 0)
+  if (m < 0)
     {
-      pld = (-1 * pld);
+      m = (-1 * m);
     }
 
-  _putchar(pld + '0');
-  return (pld);
+  _putchar(m + '0');
+  return (m);
 }

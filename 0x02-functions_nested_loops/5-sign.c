@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * print_sign - checks wether the number is + or -.
  *
  * Return: Always 0.
+ *@n: number passed
  */
 int print_sign(int n)
 {
