@@ -1,11 +1,12 @@
 #include "main.h"
-
+#include "_putchar.c"
 /**
- * main - check the code
+ * print_to_98 - prints number from n to 98.
  *
  * Return: Always 0.
+ * @n: starting number.
  */
-void print_to_98(int* n)
+void print_to_98(int n)
 {
   if (n < 98)
     {
