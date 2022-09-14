@@ -1,12 +1,10 @@
-#include <stdio.h>
-
-/**
- *main - Entry point
- *
- *Return: 0
- */
+#include "main.h"
+  /**
+   *main - Entry point
+   *
+   *Return: returns 0
+   */
 int main(void)
 {
-  _putchar("_putchar");
-  return (0);
+  _putchar("H");
 }
