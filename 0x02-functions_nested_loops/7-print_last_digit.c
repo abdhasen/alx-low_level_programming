@@ -5,7 +5,6 @@
  *
  * Return: Always 0.
  *@n: number to be checked.
- *@m: modulus of a number.
  */
 int print_last_digit(int n)
 {

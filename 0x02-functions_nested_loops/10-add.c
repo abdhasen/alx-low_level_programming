@@ -2,11 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * add - add two numbers.
  *
- * Return: Always 0.
+ * Return: returns sum of the numbers.
+ * @a:  first number.
+ * @b: second number.
  */
-int add(int one, int two)
+int add(int a, int b)
 {
-  return (one + two);
+  return (a + b);
 }
