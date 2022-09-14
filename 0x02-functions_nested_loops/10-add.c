@@ -6,11 +6,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int add(int one, int two)
 {
-  int n;
-
-  n = add(89, 9);
-  printf("%d\n", n);
-  return (0);
+  return (one + two);
 }
