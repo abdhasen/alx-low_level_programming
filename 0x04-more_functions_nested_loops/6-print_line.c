@@ -14,5 +14,10 @@ for (i = 1; i <= n; i++)
 {
 _putchar(95);
 }
+_putchar(10);
+}
+else
+{
+_putchar(10);
 }
 }

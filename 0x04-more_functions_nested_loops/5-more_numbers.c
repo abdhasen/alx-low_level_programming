@@ -14,5 +14,7 @@ for (j = 0; j <= 14; j++)
 {
 _putchar(j);
 }
+_putchar(10);
 }
+_putchar(0);
 }
