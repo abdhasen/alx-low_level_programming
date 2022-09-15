@@ -14,20 +14,25 @@ for (i = 1; i <= 100; i++)
 if (i % 3 == 0)
 {
 printf("%s", f);
+printf(" ");
 }
 else if (i % 5 == 0)
 {
 printf("%s", b);
+printf(" ");
 }
 else if ((i % 3 == 0) && (i % 5 == 0))
 {
 printf("%s", fb);
+printf(" ");
 }
 else
 {
 printf("%d", i);
+printf(" ");
 }
 }
 printf("\n");
- return (0);
+printf(" ");
+return (0);
 }
