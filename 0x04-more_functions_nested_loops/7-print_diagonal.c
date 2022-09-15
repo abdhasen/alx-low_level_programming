@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * print_diagonal - prints diagonal line with \.
@@ -12,7 +12,7 @@ if (n > 0)
 {
 for (i = 1; i <= n; i++)
 {
-_putchar('\');
+_putchar(92);
 _putchar("\n");
 }
 }
