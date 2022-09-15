@@ -11,7 +11,7 @@ int i;
 int j;
 if (size <= 0)
 {
-_putchar("\n");
+_putchar(10);
 }
 else
 {
@@ -19,9 +19,9 @@ for (i = 1; i <= size; i++)
 {
 for (j = i; j >= 1; j--)
 {
-_putchar("#");
+_putchar(35);
 }
-_putchar("\n");
+_putchar(10);
 }
 }
 }

@@ -1,30 +1,33 @@
-#include "main.c"
-
+#include <stdio.h>
 /**
  * fizz_buzz_test - fizz buzz test.
  * Return: 0.
  */
-void fizz_buzz_test(void)
+int main(void)
 {
 int i;
+char f[5] = "Fizz";
+char b[5] = "Buzz";
+char fb[8] = "FizzBuzz";
 for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0)
 {
-printf("Fizz", " ");
+printf("%s", f);
 }
 else if (i % 5 == 0)
 {
-printf("Buzz", " ");
+printf("%s", b);
 }
 else if ((i % 3 == 0) && (i % 5 == 0))
 {
-printf("FizzBuzz", " ");
+printf("%s", fb);
 }
 else
 {
-printf(i, " ");
+printf("%d", i);
 }
 }
 printf("\n");
+ return (0);
 }

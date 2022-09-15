@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * print_line - print a line _.
@@ -14,8 +14,5 @@ for (i = 1; i <= n; i++)
 {
 _putchar(95);
 }
-}
-else
-{
 }
 }

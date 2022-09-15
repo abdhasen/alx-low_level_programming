@@ -4,7 +4,7 @@
  * more_numbers - prints 0 -14 10x.
  * Return: 0
  */
-int more_numbers(void)
+void more_numbers(void)
 {
 int i;
 int j;
